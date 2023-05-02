@@ -1,0 +1,56 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.submitForm {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  // background-color: rgb(233, 192, 199);
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ms-Label {
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 4px;
+    color:rgb(19, 207, 207)
+  }
+
+  .ms-TextField {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:focus {
+      border-color: #0078d4;
+      outline: none;
+      box-shadow: 0 0 0 1px #0078d4;
+    }
+  }
+
+  .ms-Button {
+    margin-right: 16px;
+  }
+}

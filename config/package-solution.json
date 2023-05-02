@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sample-form-with-dialog-client-side-solution",
+    "id": "1215ae89-a3d9-42f1-8f45-8e86a8a9d478",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SampleFormWithDialog description"
+      },
+      "longDescription": {
+        "default": "SampleFormWithDialog description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sample-form-with-dialog Feature",
+        "description": "The feature that activates elements of the sample-form-with-dialog solution.",
+        "id": "70039d35-10d3-4f45-8fbb-90f75080c608",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sample-form-with-dialog.sppkg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "sample-form-with-dialog",
+    "libraryId": "1215ae89-a3d9-42f1-8f45-8e86a8a9d478",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SampleFormWithDialog",
+    "solutionShortDescription": "SampleFormWithDialog description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
